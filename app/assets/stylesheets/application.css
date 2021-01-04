@@ -1,0 +1,77 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+a:hover {
+	color: #007ebd;
+	background-color: #FFF;
+}
+
+body {
+	background: #5D8AA8;
+}
+
+div#wrapper{
+	margin: auto;
+	background: white;
+	width: 800px;
+	height: 1000px;
+}
+
+header {
+	display: block;
+	padding: 10px, 10px, 30px, 10px;
+}
+
+.websiteLogo{
+	float: left;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.websiteTitle {
+	font-size: 50px;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline;
+	line-height: 90px;
+	padding-left: 50px;
+}
+
+#horzNav {
+	display: block;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: black;
+}
+
+#horzNav a {
+	text-decoration: none;
+	padding-left: 10px;
+	font-weight: bold;
+	color: white;
+}
+
+#horzNav a:hover {
+	background-color: black;
+	color: #007ebd
+}
+
+main {	
+	padding-left: 20px;
+	padding-top: 20px;
+}
