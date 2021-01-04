@@ -33,13 +33,15 @@ div#wrapper{
 header {
 	display: block;
 	padding: 10px, 10px, 30px, 10px;
-}
+	padding-bottom: 40px;
+}	
 
 .websiteLogo{
 	float: left;
 	text-decoration: none;
 	padding-left: 20px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .websiteTitle {
@@ -53,7 +55,7 @@ header {
 
 #horzNav {
 	display: block;
-	padding-left: 40px;
+	padding-left: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: black;
